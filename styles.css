@@ -5,10 +5,29 @@
 }
 
 body {
-    background-color: #191919;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
 }
 
-.images {
-    width: 100%;
+.container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card {
+    height: 90vh;
+    background-color: yellow;
+    position: relative;
+    margin: 1px;
+    /* width: 200px; */
+    width: calc(25% - 50px);
 }
